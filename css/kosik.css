@@ -1,0 +1,108 @@
+.kosik_obal {
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+}
+
+.kosik_item:hover {
+    border: 1px solid gainsboro;
+}
+
+.nadpis_kosik {
+    font-size: 43px;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 100px;
+}
+
+.prazdny_kosik {
+    font-size: 45px;
+    text-align: center;
+    margin-top: 250px;
+}
+
+.obsah_kosik {
+    width: 770px;
+    margin-right: 50px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.sidepanel_kosik {
+    width: 350px;
+    height: 500px;
+    border: 1px solid gainsboro;
+    justify-content: center;
+    display: flex
+}
+
+.kosik_item {
+    margin: 10px;
+    flex: 1 100%;
+    max-height: 120px;
+    padding: 5px;
+}
+
+.content_holder {
+    display: flex;
+}
+
+.obrazek_item>img {
+    max-width: 70px;
+    max-height: 120px;
+}
+
+.obrazek_item {
+    max-width: 70px;
+    max-height: 120px;
+    margin-right: 20px;
+}
+
+.nazev_item {
+    font-size: 18px;
+    margin-right: 40px;
+    margin-top: 10px;
+}
+
+.cena_item {
+    font-size: 21px;
+    margin-top: 10px;
+    margin-right: 30px;
+}
+
+.bi-trash-fill {
+    margin-top: -45px;
+    margin-right: 10px;
+}
+
+/* side panel styly */
+.order_input {
+    width: 250px;
+    height: 40px;
+    margin: 10px auto;
+    border: none;
+    background-color: #efefef;
+    color: black;
+}
+
+.order_input::placeholder {
+    color: black;
+    opacity: 0.9;
+}
+
+.order_btn {
+    background-color: #007CC7;
+    color: white;
+    padding: 10px 25px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 17px;
+    border-radius: 10px;
+    border: 1px solid #203647;
+    float: right;
+}
+
+.suma {
+    font-size: 19px;
+}

@@ -1,0 +1,186 @@
+.paticka_obal {
+    width: 100%;
+    height: 300px;
+    background-color: #007CC7;
+    margin-top: 100px;
+}
+
+.paticka_obsah {
+    width: 90%;
+    height: 100%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.paticka_kontakty {
+    flex: 1;
+    padding: 25px;
+}
+
+.paticka_kontakty>p {
+    color: whitesmoke;
+}
+
+.paticka_udaje>p {
+    color: whitesmoke;
+}
+
+.nadpis {
+    font-weight: bold;
+    font-size: 25px;
+}
+
+.obsah_kontakty {
+    font-size: 17px;
+}
+
+.paticka_udaje {
+    flex: 1;
+    padding: 25px;
+}
+
+.obsah_udaje {
+    font-size: 17px;
+}
+
+.paticka_mapa {
+    flex: 2;
+}
+
+/* styly pro google mapu */
+.mapouter {
+    position: relative;
+    text-align: right;
+    height: 250px;
+    width: 70rem;
+    margin: 25px auto auto auto;
+}
+
+.gmap_canvas {
+    overflow: hidden;
+    background: none !important;
+    height: 250px;
+    width: 70rem;
+}
+
+.mapa_iframe {
+    width: 70rem;
+    height: 250px;
+}
+
+.copyright {
+    text-align: center;
+    height: 20px;
+
+}
+.celkova_navstevnost{
+    float: left;
+    margin-left: 10px;
+}
+.datetime{
+    float: right;
+    margin-right: 10px;
+}
+
+/* mediaqueries pro paticku */
+@media (max-width: 850px) {
+    .obsah_kontakty {
+        font-size: 14px;
+    }
+
+    .obsah_udaje {
+        font-size: 14px;
+    }
+
+    .nadpis {
+        font-size: 20px;
+    }
+
+    .paticka_kontakty {
+        padding-top: 10px;
+    }
+
+    .paticka_udaje {
+        padding-top: 10px;
+    }
+}
+
+@media (max-width: 1250px) {
+    .mapouter {
+        margin: 25px auto;
+        width: 45rem;
+    }
+
+    .mapa_iframe {
+        width: 45rem;
+    }
+
+    .gmap_canvas {
+        width: 45rem;
+    }
+}
+
+@media (max-width: 990px) {
+    .mapouter {
+        margin: 25px auto;
+        width: 30rem;
+    }
+
+    .mapa_iframe {
+        width: 30rem;
+    }
+
+    .gmap_canvas {
+        width: 30rem;
+    }
+}
+
+@media (max-width: 735px) {
+    .paticka_kontakty {
+        flex: 1 50%;
+    }
+
+    .paticka_udaje {
+        flex: 1 50%;
+    }
+
+    .paticka_obal {
+        height: 450px;
+    }
+
+    .mapouter {
+        margin: auto;
+        width: 45rem;
+        height: 200px;
+    }
+
+    .mapa_iframe {
+        width: 45rem;
+        height: 200px;
+    }
+
+    .gmap_canvas {
+        width: 45rem;
+        height: 200px;
+    }
+}
+
+@media (max-width: 500px) {
+
+    .mapouter {
+        margin: auto;
+        width: 35rem;
+        height: 200px;
+    }
+
+    .mapa_iframe {
+        width: 35rem;
+        height: 200px;
+    }
+
+    .gmap_canvas {
+        width: 35rem;
+        height: 200px;
+    }
+}

@@ -1,0 +1,113 @@
+.obal_produktu {
+    width: 80%;
+    height: 400px;
+    margin: auto;
+    margin-top: 50px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.fotky {
+    height: 450px;
+    flex: 1;
+    text-align: center;
+    margin-left: 25px;
+}
+
+.upravit_link {
+    font-size: 18px;
+}
+
+.fotky>a>img {
+    max-width: 100px;
+    max-height: 110px;
+    margin-top: 10px;
+}
+
+.hlavni_fotka {
+    height: 400px;
+    flex: 6;
+    margin-left: 20px;
+    margin-right: 60px;
+    display: flex;
+    justify-content: center;
+}
+
+.hlavni_fotka>a>img {
+    max-width: 450px;
+    max-height: 400px;
+}
+
+.informace {
+    height: 450px;
+    flex: 5;
+}
+
+.nazev_produktu_detail {
+    font-size: 30px;
+    margin-bottom: 15px;
+}
+
+.je_skladem_detail {
+    color: rgb(48, 202, 48);
+    font-size: 21px;
+}
+
+.neni_skladem_detail {
+    color: rgb(215, 58, 58);
+    font-size: 21px;
+}
+
+.cena_objednani_detail {
+    height: 100px;
+    width: 100%;
+    background-color: #a5dcff;
+    margin-top: 15px;
+    display: flex;
+}
+
+.cena_objednani_detail>p {
+    font-size: 24px;
+    line-height: 100px;
+    margin-left: 10px;
+}
+
+.pocet_kusu_detail {
+    width: 50px;
+    height: 32px;
+    margin: auto 0;
+    margin-left: 35px;
+    border-radius: 3px;
+}
+
+.vlozit_btn_detail {
+    width: 150px;
+    height: 50px;
+    background-color: #1896e4;
+    color: white;
+    font-size: 20px;
+    border-radius: 3px;
+    line-height: 50px;
+    text-align: center;
+    margin: auto 0;
+    margin-left: 5px;
+}
+
+.vlozit_odkaz_detail {
+    text-decoration: none;
+    color: white;
+}
+
+.vlozit_odkaz_detail:hover {
+    text-decoration: none;
+    color: white;
+}
+
+.popis_produktu_detail {
+    margin-top: 20px;
+}
+
+.vyrobce_produktu_detail {
+    margin-top: 30px;
+    font-size: 16px;
+}

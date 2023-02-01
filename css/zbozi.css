@@ -1,0 +1,154 @@
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+.obal_produkty {
+    width: 80%;
+    min-height: 30vw;
+    margin: auto;
+    margin-top: 60px;
+    display: flex;
+    margin-left: 10%;
+}
+
+.vypis_produktu {
+    width: 75%;
+    min-height: 550px;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.popis_produktu {
+    text-align: center;
+    padding: 5px;
+}
+
+
+.cena {
+    height: 150px;
+    font-size: 20px;
+    padding: 10px;
+}
+
+.cena_form {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.cena_form>input {
+    width: 80px;
+    margin: 10px;
+}
+
+.cena_form>span {
+    line-height: 50px;
+}
+
+.podtrzitko {
+    background-color: black;
+    height: 1px;
+    margin: 0px;
+}
+
+
+
+.razeni_varianta {
+    width: 80%;
+    height: 35px;
+    border: 1px solid #007CC7;
+    border-radius: 3px;
+    font-size: 22px;
+    margin: auto;
+    margin-top: 5px;
+    text-align: center;
+}
+
+.razeni_varianta:hover {
+    background-color: #9fd5f6;
+    transition: all 0.8s;
+}
+
+.razeni {
+    margin-top: 20px;
+    margin-bottom: 15px;
+}
+
+.produkt {
+    width: 250px;
+    height: 500px;
+    border: 1.5px solid #007CC7;
+    border-radius: 4px;
+    margin: 10px;
+    overflow: hidden;
+    position: relative;
+}
+
+.produkt_nahled {
+    width: 150px;
+    max-height: 250px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+}
+
+.overall_link_produkt:hover {
+    text-decoration: none;
+}
+
+.nahled_obal {
+    width: 100%;
+    height: 300px;
+    overflow: hidden;
+    margin-bottom: 0px;
+}
+
+.je_skladem {
+    color: rgb(41, 203, 41);
+    font-size: 18px;
+}
+
+.neni_skladem {
+    color: rgb(243, 75, 75);
+    font-size: 18px;
+    margin-left: 10px;
+}
+
+.dostupnost {
+    margin: auto;
+}
+
+.nazev_produktu {
+    text-align: center;
+    width: 250px;
+    font-size: 17px;
+}
+
+.cena_produktu {
+    text-align: center;
+    width: 250px;
+    font-size: 17px;
+    margin-top: 5px;
+}
+
+.vice {
+    width: 250px;
+    height: 20px;
+    background-color: white;
+    position: absolute;
+    bottom: 0px;
+    text-align: center;
+    box-shadow: 0px -14px 10px 0px rgba(255, 255, 255, 0.77);
+    -webkit-box-shadow: 0px -14px 10px 0px rgba(255, 255, 255, 0.77);
+    -moz-box-shadow: 0px -14px 10px 0px rgba(255, 255, 255, 0.77);
+    border-top: 1px solid;
+}
+
+.vice>a {
+    text-decoration: none;
+}

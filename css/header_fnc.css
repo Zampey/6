@@ -1,0 +1,424 @@
+/* css reset */
+* {
+    margin: 0 0 0 0;
+    /* outline: 1px dotted red; */
+}
+
+body {
+    font-family: 'Oswald', sans-serif;
+}
+
+.vlastni_obsah {
+    min-height: 465px;
+}
+
+/* styly pro hlavičku */
+.nav {
+    text-align: right;
+    height: 100px;
+    margin-top: 25px;
+}
+
+.menu {
+    margin-top: 0px;
+}
+
+.menu a {
+    clear: right;
+    text-decoration: none;
+    color: white;
+    margin: 0 10px;
+    line-height: 70px;
+}
+
+.menu_label {
+    margin: 0 5px 0 0;
+    font-size: 26px;
+    line-height: 69px;
+    display: none;
+    width: 26px;
+    float: right;
+    color: white;
+    margin-top: -1px;
+}
+
+.menu_label:hover {
+    color: #203647;
+}
+
+#toggle:checked+.menu_label>* {
+    color: #203647;
+}
+
+.hidden_checkbox {
+    display: none;
+}
+
+.header_package {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.top_header {
+    height: 100px;
+    background-color: #007CC7;
+    display: flex;
+    width: 100%;
+}
+
+.header_logo_link {
+    margin: 25px 0px 0px 70px;
+    height: 50px;
+}
+
+.top_header_link {
+    font-size: 22px;
+    color: white;
+    line-height: 100px;
+    margin: 10px;
+}
+
+.top_header_link:hover {
+    text-decoration: none;
+    color: #203647;
+}
+
+.links {
+    width: 75%;
+    margin-right: 70px;
+}
+
+.links>* {
+    float: right;
+}
+
+.top_header_icon {
+    margin-left: 20px;
+    color: white;
+    margin-top: 20px;
+    line-height: 100px;
+    height: 15px;
+}
+
+.top_header_icon:hover {
+    color: #203647;
+}
+
+.top_line {
+    color: #007CC7;
+    display: flex;
+    width: 100%;
+}
+
+.obal_phone_mail {
+    display: flex;
+    flex: 1;
+    width: 300px;
+    margin-left: 75px;
+}
+
+.dop_rek {
+    margin-right: 170px;
+}
+
+.dop_rek>* {
+    float: right;
+    margin: 5px 0px 0px 20px;
+}
+
+.header_logo {
+    height: 50px;
+    line-height: 100px;
+}
+
+.phone {
+    display: flex;
+    margin-top: 5px;
+}
+
+.mail {
+    display: flex;
+    margin-top: 5px;
+}
+
+.basket-in {
+    position: absolute;
+    display: none;
+    color: #203647;
+    bottom: -250px;
+    right: 60px;
+}
+
+.basket-in-a {
+    display: none;
+}
+
+.basket-out {
+
+    margin-top: -15px;
+    margin-right: 10px;
+}
+
+.phone_icon {
+    margin-top: 5px;
+    color: #007CC7;
+    height: 15px;
+}
+
+.mail_icon {
+    margin: 5px;
+    color: #007CC7;
+    height: 15px;
+}
+
+.phone:hover {
+    color: #4DA8DA
+}
+
+.mail:hover {
+    color: #4DA8DA;
+}
+
+.doprava {
+    margin-top: 5px;
+    text-decoration: none;
+    float: right;
+}
+
+.reklamace {
+    margin-top: 5px;
+    text-decoration: none;
+    float: right;
+}
+
+.doprava:hover {
+    color: #4DA8DA;
+    text-decoration: none;
+}
+
+.reklamace:hover {
+    color: #4DA8DA;
+    text-decoration: none;
+}
+
+/* login/register hoverable nabídka */
+.account {
+    height: 15px;
+    margin-top: 12px;
+    margin-left: 20px;
+    height: 15px;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 180px;
+    min-height: 200px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+    right: 50px;
+}
+
+.user {
+    margin: 0px;
+}
+
+#user_checkbox:checked+.dropdown-content {
+    display: block;
+}
+
+.login_form>input {
+    width: 150px;
+    margin: 15px;
+    margin-top: 10px;
+}
+
+.registr_link {
+    margin-left: 32%;
+    font-size: larger;
+}
+
+.registr_link:hover {
+    text-decoration: none;
+}
+
+.logged_credentials {
+    font-size: 20px;
+    text-align: center;
+}
+
+/* styly pro samotný obsah hlavní strany(index.php) */
+
+/* registrace  */
+.registr_input {
+    width: 350px;
+    height: 40px;
+    margin: 10px;
+    border: none;
+    background-color: #efefef;
+    color: black;
+}
+
+.registr_input::placeholder {
+    color: black;
+    opacity: 0.9;
+}
+
+.registr_obal {
+    display: flex;
+    margin-top: 15px;
+    justify-content: center;
+
+}
+
+.registr_btn {
+    background-color: #007CC7;
+    color: white;
+    padding: 10px 25px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 17px;
+    border-radius: 10px;
+    border: 1px solid #203647;
+    margin: 10px 0px 0px 115px;
+}
+
+#reg_error_div {
+    border: 4px solid rgb(195, 82, 82);
+    height: 60px;
+    width: 400px;
+    margin: 20px auto;
+    background-color: rgb(255, 206, 206);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 16px;
+    font-weight: bold;
+    color: black;
+    display: flex;
+    visibility: visible;
+}
+
+#reg_error_div>img {
+    height: 35px;
+    margin-top: 9px;
+    margin-left: 10px;
+}
+
+#reg_error_div>p {
+    line-height: 60px;
+    margin: auto;
+}
+
+#reg_success_div {
+    border: 4px solid rgb(6, 164, 27);
+    height: 60px;
+    width: 400px;
+    margin: 20px auto;
+    background-color: rgb(148, 255, 157);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 16px;
+    font-weight: bold;
+    color: rgb(69, 69, 69);
+    display: flex;
+    visibility: visible;
+}
+
+#reg_success_div>img {
+    height: 35px;
+    margin-top: 9px;
+    margin-left: 10px;
+}
+
+#reg_success_div>p {
+    line-height: 60px;
+    margin: auto;
+}
+
+/* mediaqueries pro hlavičku */
+@media (max-width: 425px) {
+    .top_line {
+        display: flex;
+    }
+
+    .obal_phone_mail {
+        flex-wrap: wrap;
+    }
+
+}
+
+@media (max-width: 650px) {
+    .obal_phone_mail {
+        margin-left: 10px;
+    }
+
+    .dop_rek {
+        margin-right: 10px;
+    }
+
+    .header_logo_link {
+        margin: 25px 0px 0px 10px;
+    }
+
+    .account {
+        margin-right: -50px;
+    }
+
+    .basket-in {
+        bottom: -180px;
+    }
+
+    .menu_label {
+        z-index: 10;
+        position: absolute;
+        right: -30px;
+    }
+}
+
+@media only screen and (max-width: 1050px) {
+    .menu_label {
+        display: block;
+        cursor: pointer;
+    }
+
+    .menu {
+        text-align: center;
+        width: 100%;
+        display: none;
+        box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+        background-color: #f1f1f1;
+    }
+
+    .nav {
+        z-index: 10;
+        position: absolute;
+        right: 95px;
+    }
+
+    .menu a {
+        display: block;
+        margin: 0;
+        color: #203647;
+        min-width: 150px;
+    }
+
+    .basket-out {
+        display: none;
+    }
+
+    .basket-in {
+        display: block;
+    }
+
+    .basket-in-a {
+        display: block;
+        color: #f1f1f1;
+    }
+
+
+
+    #toggle:checked+.menu {
+        display: block;
+    }
+
+
+}

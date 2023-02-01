@@ -1,0 +1,25 @@
+.obal_nastaveni {
+    margin-top: 15px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.nadpis_barva {
+    font-size: 18px;
+}
+
+.select_barvy {
+    width: 100px;
+}
+
+.podtrzitko_nastaveni {
+    width: 200px;
+    color: black;
+    margin: 5px auto;
+    opacity: 1;
+}
+
+.nastaveni_nadpis {
+    text-align: center;
+}
